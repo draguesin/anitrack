@@ -1,0 +1,32 @@
+# dependencias y caché
+node_modules/
+.expo/
+dist/
+web-build/
+
+# proyectos nativos: se generan con `npx expo prebuild`
+/android
+/ios
+
+# secretos y firmas: nunca se suben
+.env
+.env.*
+!.env.example
+*.keystore
+*.jks
+*.p12
+*.key
+*.pem
+
+# compilados y copias de datos
+*.apk
+*.aab
+*backup*.json
+
+# sistema
+.DS_Store
+Thumbs.db
+npm-debug.*
+
+logcat*.txt
+*.log
